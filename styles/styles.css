@@ -29,7 +29,7 @@ body {
     
 }
 
-  #active {
+  .active {
   background-color: white;
   color: steelblue;
 }
