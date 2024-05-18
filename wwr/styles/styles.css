@@ -28,8 +28,6 @@ main section{
 }
 #hero-img{
     width: 1600px;
-    
-
 }
 
 .book{
@@ -50,6 +48,7 @@ main section{
 }
 .join:hover {
     background-color: rgb(42, 92, 92);
+    width: 1600px;
 }
 
 #background{
@@ -68,7 +67,7 @@ nav a:hover {
     color: #cca879;
 }    
 .icon {
-    width: 50px;
+    width: 80px;
 }
 nav a {
     text-align: center;
