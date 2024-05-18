@@ -26,8 +26,9 @@ nav a {
 main section{
     text-align: center;
 }
-.hero{
-    text-align: center;
+#hero-img{
+    width: 50px;
+    
 
 }
 
