@@ -57,6 +57,7 @@ main section{
 
 .msg{
     background-color: rgb(75, 97, 89);
+    width: 1600px;
 }
 footer{
     background-color: rgb(75, 97, 89);
