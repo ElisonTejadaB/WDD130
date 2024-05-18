@@ -52,7 +52,7 @@ main section{
 
 #background{
     background-color: rgb(42, 124, 124);
-    width: 1600;
+    width: 1600px;
 }
 
 .msg{
@@ -60,7 +60,7 @@ main section{
 }
 footer{
     background-color: rgb(75, 97, 89);
-    width: 1600;
+    width: 1600px;
 }
 
 nav a:hover {
