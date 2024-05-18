@@ -9,7 +9,6 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
     width: 1600px;
-    height: 80px;
 }
 nav a {
     text-align: center; 
@@ -31,6 +30,9 @@ main section{
 #hero-img{
     width: 1600px;
 }
+#logo link{
+    padding: 4em;
+}
 
 .book{
     background-color: rgb(163, 163, 197);
@@ -39,14 +41,14 @@ main section{
     text-decoration: none;
 }
 .join {  
-    background-color: rgb(202, 148, 78);
+    background-color: rgb(126, 94, 53);
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }
 
 .book:hover{
-    background-color: brown;
+    background-color: rgb(139, 56, 56);
 }
 .join:hover {
     background-color: rgb(42, 92, 92);
@@ -64,8 +66,8 @@ footer{
 }
 
 nav a:hover {
-    background-color: rgb(161, 155, 155);
-    color: #cca879;
+    background-color: rgb(243, 243, 243);
+    color: #9e8c74;
 }    
 .icon {
     width: 80px;
