@@ -12,11 +12,28 @@ header {
 nav a:hover {
     background-color: black;
 
-.book {
-    background-color: rgb(163, 163, 197);
+nav a {
+    text-align: center; 
+}
+
+#hero-msg h1{
+    text-align: center; 
 
 }
-.join{  
+#hero-msg h4{
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+
+.book{
+    background-color: rgb(163, 163, 197);
+}
+.join {  
     background-color: rgb(202, 148, 78)
 
 }
