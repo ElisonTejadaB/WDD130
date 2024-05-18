@@ -47,11 +47,12 @@ main section{
     background-color: rgb(139, 56, 56);
 }
 .join:hover {
-    background-color: rgb(42, 92, 92);
+    background-color: rgb(78, 82, 82);
 }
 
 #background{
-    background-color: rgb(68, 124, 124);
+    background-color: rgb(42, 124, 124);
+    width: 1600;
 }
 
 .msg{
@@ -59,6 +60,7 @@ main section{
 }
 footer{
     background-color: rgb(75, 97, 89);
+    width: 1600;
 }
 
 nav a:hover {
