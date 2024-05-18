@@ -48,22 +48,22 @@ main section{
 }
 
 #background{
-    background-color: lightgreen;
+    background-color: rgb(68, 124, 124);
 }
 
 .msg{
-    background-color: black;
+    background-color: rgb(167, 171, 201);
 }
 footer{
-    background-color: aquamarine;
+    background-color: rgb(75, 97, 89);
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: rgb(161, 155, 155);
     color: #cca879;
 }    
 .icon {
-    width: 80px;
+    width: 50px;
 }
 nav a {
     text-align: center;
