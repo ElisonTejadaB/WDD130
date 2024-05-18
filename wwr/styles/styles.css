@@ -32,10 +32,15 @@ main section{
 
 .book{
     background-color: rgb(163, 163, 197);
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
 }
 .join {  
     background-color: rgb(202, 148, 78)
-
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
 }
 .book:hover{
     background-color: brown;
@@ -68,10 +73,21 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-}    
+} 
+.book{
+    text-align: center;
+    color: #7c6868;
+    text-decoration: none;
+}   
+
 footer p {
     font-size: 1.2em;
 }    
 footer p a:hover {
     text-decoration: underline;
 }    
+footer a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
