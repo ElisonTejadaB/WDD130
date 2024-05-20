@@ -1,5 +1,6 @@
 body {
     text-align: left;
+    margin: 0;
   }
   nav {
     background-color: steelblue;
@@ -13,6 +14,10 @@ body {
   h1 {
     color: steelblue;
   }
+
+  h1 {
+    margin: 50px 0;
+}
   img {
     /*width: 800px;*/
     width: 80%;
@@ -26,6 +31,11 @@ body {
     background-color: steelblue;
     color: white;
   }
+
+  footer p {
+    padding: 25px;
+}
+
   .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
