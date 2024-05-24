@@ -1,10 +1,11 @@
 .circles{
-    max-width: max-content;
+  width: 2600px;
 }
 
 .desk{
     width: 10%;
     border-radius: 50%;
+ 
     }
 .graphic{
     width: 10%;
@@ -17,4 +18,7 @@
 }
 #w05{
     background-color: #585758fa;
+    height: 310px;
+    align-items: center;
+    
 }
