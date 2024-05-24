@@ -1,37 +1,49 @@
 .circles{
-    display: flex;
-  justify-content: center;
+   
+    width: 82%;
+    justify-content: center;
 }
 
 .desk{
+    position: absolute;
+    left: 405px;
     width: 10%;
     margin-top: 65px;
-    border-radius: 50%;
+    border-radius: 70%;
     border: 8px solid rgb(58, 56, 56);
  
     }
 .graphic{
-    margin-top: 65px;
+    position: absolute;
+    left: 680px;
     width: 10%;
-    border-radius: 50%;
+    margin-top: 65px;
+    border-radius: 70%;
     border: 8px solid rgb(58, 56, 56);
-    flex:auto;
-
+   
 }
 .person{
     
-    margin-top: 65px;
+    position: absolute;
+    left: 925px;
     width: 10%;
-    border-radius: 50%;
+    margin-top: 65px;
+    border-radius: 70%;
     border: 8px solid rgb(58, 56, 56);
-
 }
 
 #w05{
+    justify-content: center;
     background-color: #585758fa;
+    width: 82%;
     height: 310px;
     border-width: 0px;
-    text-align: center;
-    
+    margin:auto;
+      
 }
+div{
+    text-align:center;
+    justify-content: center;
+}
+
 
