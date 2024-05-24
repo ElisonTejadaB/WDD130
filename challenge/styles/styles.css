@@ -1,19 +1,20 @@
+.circles{
+    max-width: max-content;
+}
+
 .desk{
-     width: 20%;
-     margin-top: 63;
-    }
-    #w05{
-       background-color: #911515;
-    } 
-.desk{
-    width: 20%;
-    margin-top: 63;
+    width: 10%;
+    border-radius: 50%;
     }
 .graphic{
-    width: 20%;
-     margin-top: 63;
+    width: 10%;
+    border-radius: 50%;
+
 }
 .person{
-    width: 20%;
-     margin-top: 63;
+    width: 10%;
+    border-radius: 50%;
+}
+#w05{
+    background-color: #585758fa;
 }
