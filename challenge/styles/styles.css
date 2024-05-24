@@ -1,9 +1,10 @@
 .circles{
-  width: 3600px;
-  border-width: 0px;
-  margin: 0;
-  align-items: center;
+    margin-right: auto;
 }
+.circler{
+    margin-right: auto;
+}
+
 
 .desk{
     width: 10%;
