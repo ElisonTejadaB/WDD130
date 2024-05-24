@@ -1,10 +1,7 @@
 .circles{
-    margin-right: auto;
+    display: flex;
+  justify-content: center;
 }
-.circler{
-    margin-right: auto;
-}
-
 
 .desk{
     width: 10%;
@@ -38,6 +35,3 @@
     
 }
 
-.w05_images{
-    text-align: center;
-}
