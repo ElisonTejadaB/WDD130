@@ -13,9 +13,6 @@
 
 }
 
-/*body {
-    background-color: #fcfbfb; 
-}*/
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
@@ -38,9 +35,7 @@ header {
     background-color:rgba(20,30,13, .7);
     width: 1600px;
 }
-/*nav a {
-    text-align: center; 
-}*/
+
 nav a {
     text-decoration: none;
     color: #fcfbfb;
@@ -83,12 +78,6 @@ main section img {
     color: #fcfbfb;
     text-decoration: none;
 }
-/*.join {  
-    background-color: rgb(126, 94, 53);
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}*/
 
 .book:hover{
     background-color: rgb(139, 56, 56);
@@ -111,10 +100,6 @@ main section img {
     color: white;
 }
 
-/*.msg {
-    background-color: #6f7364;
-    line-height: 1.5em;
-  }*/
 footer{
     background-color: rgb(75, 97, 89);
     color: #d9c2a3;;
@@ -136,11 +121,6 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 } 
-/*.book{
-    text-align: center;
-    color: #7c6868;
-    text-decoration: none;
-} */
 
 .join {
     background-color: #d9c2a3;
