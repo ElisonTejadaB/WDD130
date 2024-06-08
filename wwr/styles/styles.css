@@ -149,11 +149,6 @@ main section img {
     background-color: rgb(78, 82, 82);
 }
 
-/*#background{
-    background-color: rgb(42, 124, 124);
-    width: 1600px;
-}*/
-
 .msg{
     display: grid;
     height: 270px;
@@ -163,14 +158,6 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 
-    /*grid-column: 6/10;
-    grid-row: 6/7;
-    margin-top: 85px;
-    padding: 18px;
-    background-color: rgb(75, 97, 89);
-    width: 1600px;
-    line-height: 1.5em;
-    color: white;*/
 }
 .card-img {
     width: 100%;
@@ -190,12 +177,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*background-color: rgb(75, 97, 89);
-    color: #d9c2a3;;
-    width: 1600px;
-    margin-top: 85px;
-    padding: 45px;
-    text-decoration: none;*/
+    
 }
 
 nav a:hover {
