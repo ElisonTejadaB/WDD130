@@ -120,8 +120,8 @@ main section img {
     
 }
 .rapids-cards{
-    grid-column: 5/7;
-    grid-row: 2/3;
+    grid-column: 3/5;
+    grid-row: 1/3;
 
    
 }
