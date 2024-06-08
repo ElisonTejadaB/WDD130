@@ -87,8 +87,8 @@ nav {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: repeat(10, 1fr) ;
+    /*grid-template-rows: auto;*/
     margin: 200px 0;
 }
 
