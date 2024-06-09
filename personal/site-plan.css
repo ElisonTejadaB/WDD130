@@ -40,6 +40,12 @@ img {
   display: block;
   margin: 0 auto;
 }
+#logo-img{
+  padding: 30px 45px;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
