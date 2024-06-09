@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #1B1C2D   ;
+  --secondary-color: #245962 ;
+  --accent1-color: #2D9596;
+  --accent2-color: #FFFFFF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -41,11 +41,11 @@ img {
   margin: 0 auto;
 }
 #logo-img{
-  padding: 30px 45px;
-  padding-top: 5px;
-  justify-self: center;
-  align-self: center;
+  border-radius: 70%;
+  border: 8px solid white;
+ 
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
