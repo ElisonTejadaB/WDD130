@@ -1,4 +1,17 @@
-main{
+body{
+display: grid;
+
+
+}
+
+#main-text{
     display: grid;
     text-align: center;
+}
+
+img{
+    grid-template-columns: repeat(100px);
+    grid-template-rows: repeat(40px);
+
+
 }
