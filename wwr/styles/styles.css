@@ -82,6 +82,11 @@ nav {
     grid-template-columns: repeat(10, 1fr) ;
     margin: 200px 0;
 }
+.home-g{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+    margin: 200px 0;
+}
 
 .button-box {
     text-align: center;
