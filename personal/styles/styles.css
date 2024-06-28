@@ -34,7 +34,6 @@ nav a:hover {
     color: #9e8c74;
 }
 #content{
-    display: grid;
     max-width: 1600px;
     margin: 0 auto;
 }
