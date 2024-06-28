@@ -1,4 +1,8 @@
 
+
+
+
+
 header {
     display: grid;
     grid-template-columns: 100px auto;
@@ -69,7 +73,12 @@ section h2{
     grid-row: 3/4;
 }
 
+/* #images{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr 1fr 1fr ;
 
+} */
 
 
 
