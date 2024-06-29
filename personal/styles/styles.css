@@ -1,5 +1,8 @@
 @import url('https://coolors.co/1b1c2d-245962-2d9596-ffffff');
 
+
+
+/* start Personal site */
 header {
     margin-top: -10px;
     display: grid;
@@ -100,18 +103,16 @@ grid-template-columns: 1fr 1fr 1fr;
   
  }
 
-
-
-
  footer p {
     font-size: 1.2em;
+    color:#FFFFFF;
 }    
 footer p a:hover {
     text-decoration: underline;
 }    
 footer a{
     text-align: center;
-    color: #d9c2a3;
+    color: #FFFFFF;
     text-decoration: none;
 }
 footer{
@@ -120,7 +121,8 @@ footer{
     height: 100px;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,28,45,1) 13%, rgba(0,212,255,1) 100%);
     margin: 15px;
     margin-left: auto;
 }
@@ -135,7 +137,23 @@ color: #1B1C2D;
 
 }
 
+.icon{
+border-radius: 75px;
 
+}
+
+/* End personal site */
+
+
+/* start Solutions and Services */
+
+.home-ss{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+
+}
 
 
 
