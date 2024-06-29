@@ -1,3 +1,4 @@
+@import url('https://coolors.co/1b1c2d-245962-2d9596-ffffff');
 
 header {
     margin-top: -10px;
@@ -100,6 +101,8 @@ grid-template-columns: 1fr 1fr 1fr;
  }
 
 
+
+
  footer p {
     font-size: 1.2em;
 }    
@@ -111,9 +114,26 @@ footer a{
     color: #d9c2a3;
     text-decoration: none;
 }
+footer{
+    display: flex;
+    width: 1520px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 15px;
+    margin-left: auto;
+}
+section h2 {
+    text-align:left;
+    margin-left: 10px;
+    color: #1B1C2D;
+    font-style: KoHo;
+}
+h2 p{
+color: #1B1C2D;
 
-
-
+}
 
 
 
