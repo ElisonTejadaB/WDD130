@@ -1,5 +1,50 @@
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color:rgba(20,30,13, .5);
+ }
+ .logo{
+    width: 80px;
+    border-radius: 70%;
+    text-align: center;
+ }
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    font-size: 1.2rem;
+
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+ 
+  
+}
+nav a:hover {
+    background-color: rgb(243, 243, 243);
+    color: #9e8c74;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#home{
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+#home-img{
+   width: 100%;
+   z-index: 0;
 
 
+}
 
 
 
@@ -10,11 +55,7 @@
 
 
 /* 
-header {
-    display: grid;
-    grid-template-columns: 100px auto;
-    background-color:rgba(20,30,13, .7);
- }
+
 
  #logo_link {
     padding: 30px 45px;
