@@ -152,7 +152,25 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 
+}
+#images_ss{
+    grid-column: 1/2;
+    margin-top: 20px;
+    width: 100%;
 
+}
+
+#img-s1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 45%;
+}
+#img-s2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 
