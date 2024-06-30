@@ -211,6 +211,17 @@ grid-row: 1/2;
 
 /* ****************************************************************start Contact ************************************************************************ */
 
+
+.h_c{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr;
+} 
+  
+#text_c{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
 #images_c{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
