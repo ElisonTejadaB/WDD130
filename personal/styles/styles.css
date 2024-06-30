@@ -147,51 +147,20 @@ border-radius: 75px;
 
 /* start Solutions and Services */
 
-/* .home-ss{
+.home-ss{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
 
-} */
-/* #images_ss{
-    grid-column: 1/2;
-    margin-top: 20px;
-    width: 100%;
-
-} */
-
-#img-s1{
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 100%;
-    height: 45%;
-}
-#img-s2{
-    display: grid;
-    grid-column: 2/3;
-    /* grid-row: 1/2; */
+} 
+.hss{
+grid-row: 1/2;
 }
 
-/* #img-s4{
-display: grid;
-grid-column: 1/4;
-width: 100px; */
-/* 
-} */
+.after_ss{
+grid-row: 2/3;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
