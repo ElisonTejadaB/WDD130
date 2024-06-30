@@ -173,6 +173,13 @@ grid-template-rows: 1fr 1fr;
     /* grid-row: 1/2; */
 }
 
+/* #img-s4{
+display: grid;
+grid-column: 1/4;
+width: 100px; */
+/* 
+} */
+
 
 
 
