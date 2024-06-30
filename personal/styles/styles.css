@@ -3,6 +3,7 @@
 
 
 /* start Personal site */
+
 header {
     margin-top: -10px;
     display: grid;
@@ -123,8 +124,7 @@ footer{
     align-items: center;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,28,45,1) 13%, rgba(0,212,255,1) 100%);
-    /* margin: 15px;
-    margin-left: auto; */
+
 }
 .h_gp h2 {
     text-align:left;
@@ -207,6 +207,36 @@ grid-row: 1/2;
     
 }
 
+/* End Solutions and Services */
+
+/* ****************************************************************start Contact ************************************************************************ */
+
+#images_c{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+    
+     #img-c1{
+        width: 410PX;
+        height: 330px;
+        grid-column: 1/2;
+    
+    }
+    
+    #img-c2{
+        width: 410PX;
+        height: 330px;
+        grid-column: 2/3;
+      
+    }
+    
+    #img-c3{
+        width: 410PX;
+        height: 330px;
+        grid-column: 3/4;
+      
+     }
 
 
 
