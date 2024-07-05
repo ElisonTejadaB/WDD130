@@ -1,4 +1,4 @@
-@import url('https://coolors.co/1b1c2d-245962-2d9596-ffffff');
+/* @import url('https://coolors.co/1b1c2d-245962-2d9596-ffffff');
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
@@ -6,7 +6,7 @@
 
 /* start Personal site */
 
-header {
+/* header {
     margin-top: -10px;
     display: grid;
     grid-template-columns: 150px auto;
@@ -143,13 +143,13 @@ color: #1B1C2D;
 .icon{
 border-radius: 75px;
 
-}
+} */
 
 /* End personal site */
 
 /* ****************************************************************start Solutions and Services************************************************************************ */
 
-
+/* 
 .home-ss{
 display: grid;
 grid-template-columns: 1fr;
@@ -208,14 +208,14 @@ grid-row: 1/2;
     grid-column: 1/3;
     grid-row: 3/4;
     
-}
+} */
 
 /* End Solutions and Services */
 
 /* ****************************************************************start Contact ************************************************************************ */
 
 
-.h_c{
+/* .h_c{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: .1fr;
@@ -250,19 +250,447 @@ grid-row: 1/2;
         height: 330px;
         grid-column: 3/4;
       
-     }
+     } */
 
+/* nuevo codigo */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url('https://coolors.co/1b1c2d-245962-2d9596-ffffff') ;
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap') ;
+@font-face {
+font-family : 'Cherry Swash';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/cherryswash/v20/i7dNIFByZjaNAMxtZcnfAy58QA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Cherry Swash';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/cherryswash/v20/i7dSIFByZjaNAMxtZcnfAy5E_FeaGw.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 200;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNisssJ_zIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNiss1JzzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FwfZ5fmddNNisUeA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissjJ3zIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 600;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissoJrzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissxJvzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 200;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPuE1WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPoU2WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2F-fZ5fmddNBik.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPt03WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 600;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPvEwWJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPpUxWJ4.ttf) format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Cherry+Swash:wght@400;700&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap') ;
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 200;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y95wuj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9bj5wuj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9a95wuj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9aP5wuj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 600;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Zj4Auj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Za4Auj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 800;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y94Auj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Beiruti';
+font-style : normal;
+font-weight : 900;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9YU4Auj.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Cherry Swash';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/cherryswash/v20/i7dNIFByZjaNAMxtZcnfAy58QA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'Cherry Swash';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/cherryswash/v20/i7dSIFByZjaNAMxtZcnfAy5E_FeaGw.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 200;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNisssJ_zIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNiss1JzzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FwfZ5fmddNNisUeA.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissjJ3zIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 600;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissoJrzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : italic;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FzfZ5fmddNNissxJvzIg.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 200;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPuE1WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPoU2WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2F-fZ5fmddNBik.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPt03WJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 600;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPvEwWJ4.ttf) format('truetype');
+}
+@font-face {
+font-family : 'KoHo';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPpUxWJ4.ttf) format('truetype');
+}
+header {
+margin-top : -10px;
+display : grid;
+grid-template-columns : 150px auto;
+background-color : rgb(20, 30, 13, 0.7);
+align-items : end;
+}
+nav {
+display : flex;
+justify-content : space-around;
+z-index : 2;
+}
+nav a {
+text-decoration : none;
+color : #fcfbfb;
+text-align : center;
+padding : 40px;
+}
+nav a:hover {
+background-color : rgb(243, 243, 243);
+color : #9e8c74;
+}
+.logo {
+border-radius : 75px;
+width : 90px;
+}
+#home {
+display : grid;
+grid-template-columns : 1fr 1fr 1fr;
+grid-column : 1 / 3;
+grid-row : 1 / 3;
+margin-top : -150px;
+}
+#home-box {
+display : grid;
+grid-column : 1 / 4;
+grid-row : 1 / 3;
+z-index : -1;
+}
+#home-img {
+width : 100%;
+}
+.home-grid {
+display : grid;
+grid-template-columns : 1fr;
+grid-template-rows : 1fr 1fr;
+}
+.h_gp {
+display : grid;
+grid-template-columns : 1fr 1fr 1fr;
+grid-row : 1 / 2;
+}
+.h_gp h2 {
+grid-column : 2 / 4;
+}
+.home_side {
+grid-column : 1 / 2;
+margin-top : 20px;
+width : 100%;
+}
+#images_h {
+display : grid;
+grid-template-columns : 1fr 1fr 1fr;
+}
+#img-h1 {
+width : 410px;
+height : 330px;
+grid-column : 1 / 2;
+}
+#img-h2 {
+width : 410px;
+height : 330px;
+grid-column : 2 / 3;
+}
+#img-h3 {
+width : 410px;
+height : 330px;
+grid-column : 3 / 4;
+}
+footer p {
+font-size : 1.2em;
+color : #FFFFFF;
+}
+footer p a:hover {
+text-decoration : underline;
+}
+footer a {
+text-align : center;
+color : #FFFFFF;
+text-decoration : none;
+}
+footer {
+display : flex;
+width : 100%;
+height : 100px;
+justify-content : space-around;
+align-items : center;
+background : rgb(2, 0, 36);
+background : linear-gradient(90deg, rgb(2, 0, 36, 1) 0%, rgb(27, 28, 45, 1) 13%, rgb(0, 212, 255, 1) 100%);
+}
+.h_gp h2 {
+text-align : left;
+margin-left : 10px;
+color : #1B1C2D;
+}
+h2 p {
+color : #1B1C2D;
+}
+.icon {
+border-radius : 75px;
+}
+.home-ss {
+display : grid;
+grid-template-columns : 1fr;
+grid-template-rows : 1fr 0.1fr;
+}
+.hss {
+display : grid;
+grid-template-columns : 1fr 1fr 1fr;
+grid-template-rows : 1fr 1fr 1fr;
+grid-row : 1 / 2;
+}
+.after_ss {
+grid-row : 2 / 3;
+}
+#img-s1 {
+grid-column : 1 / 2;
+grid-row : 2 / 3;
+width : 100%;
+height : 100%;
+}
+#img-s2 {
+grid-column : 2 / 3;
+grid-row : 2 / 3;
+width : 100%;
+height : 100%;
+}
+#img-s3 {
+grid-column : 3 / 4;
+grid-row : 3 / 4;
+}
+#img-s4 {
+width : 100%;
+height : 370px;
+}
+#text1 {
+grid-column : 1 / 3;
+grid-row : 1 / 2;
+}
+#text2 {
+grid-column : 3 / 4;
+grid-row : 1 / 3;
+}
+#text3 {
+grid-column : 1 / 3;
+grid-row : 3 / 4;
+}
+.h_c {
+display : grid;
+grid-template-columns : 1fr;
+grid-template-rows : 0.1fr;
+}
+#text_c {
+grid-column : 1 / 3;
+grid-row : 1 / 2;
+}
+#images_c {
+display : grid;
+grid-template-columns : 1fr 1fr 1fr;
+}
+#img-c1 {
+width : 410px;
+height : 330px;
+grid-column : 1 / 2;
+}
+#img-c2 {
+width : 410px;
+height : 330px;
+grid-column : 2 / 3;
+}
+#img-c3 {
+width : 410px;
+height : 330px;
+grid-column : 3 / 4;
+}
