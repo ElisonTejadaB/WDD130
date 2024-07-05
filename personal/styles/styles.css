@@ -354,63 +354,6 @@ font-weight : 700;
 font-display : swap;
 src : url(https://fonts.gstatic.com/s/koho/v16/K2FxfZ5fmddNPpUxWJ4.ttf) format('truetype');
 }
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Cherry+Swash:wght@400;700&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap') ;
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 200;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y95wuj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 300;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9bj5wuj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 400;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9a95wuj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 500;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9aP5wuj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 600;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Zj4Auj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 700;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Za4Auj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 800;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9Y94Auj.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Beiruti';
-font-style : normal;
-font-weight : 900;
-font-display : swap;
-src : url(https://fonts.gstatic.com/s/beiruti/v1/JTUIjIU69Cmr9FGcYgRFEb7cdQn2-9YU4Auj.ttf) format('truetype');
-}
 @font-face {
 font-family : 'Cherry Swash';
 font-style : normal;
