@@ -223,7 +223,7 @@ height : 330px;
 grid-column : 3 / 4;
 }
 
-/* para Mobiles */
+/* Responsiveness */
 
 :root {
     --main-bg-color: rgba(20, 30, 13, 0.7);
