@@ -316,6 +316,7 @@ grid-column : 2 / 4;
 grid-column : 1 / 2;
 margin-top : 20px;
 width : 100%;
+border-radius: 10px;
 }
 #images_h {
 display : grid;
@@ -325,16 +326,22 @@ grid-template-columns : 1fr 1fr 1fr;
 width : 410px;
 height : 330px;
 grid-column : 1 / 2;
+margin-top: 20px;
+border-radius: 10px;
 }
 #img-h2 {
 width : 410px;
 height : 330px;
 grid-column : 2 / 3;
+margin-top: 20px;
+border-radius: 10px;
 }
 #img-h3 {
 width : 410px;
 height : 330px;
 grid-column : 3 / 4;
+margin-top: 20px;
+border-radius: 10px;
 }
 footer p {
 font-size : 1.2em;
