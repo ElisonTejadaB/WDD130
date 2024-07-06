@@ -335,6 +335,10 @@ margin-top : 20px;
 width : 100%;
 border-radius: 10px;
 }
+
+figcaption{
+    text-align: center;
+}
 #images_h {
 display : grid;
 grid-template-columns : 1fr 1fr 1fr;
