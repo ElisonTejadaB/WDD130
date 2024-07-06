@@ -338,6 +338,8 @@ border-radius: 10px;
 
 figcaption{
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 #images_h {
 display : grid;
