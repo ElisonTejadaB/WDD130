@@ -265,7 +265,7 @@ background-color : rgb(20, 30, 13, 0.7);
 align-items : end;
 }
 body{
-    font-family: 'Cherry Swash' , Koho , Georgia, sans-serif;
+    font-family: 'Cherry Swash' , 'Koho' , 'Georgia, sans-serif';
 
 }
 nav {
@@ -278,6 +278,7 @@ text-decoration : none;
 color : #fcfbfb;
 text-align : center;
 padding : 40px;
+font-family: 'Koho';
 }
 nav a:hover {
 background-color : rgb(243, 243, 243);
@@ -322,6 +323,10 @@ margin-top: 20px;
 height: 95% ;
 border-radius: 10px ;
 
+}
+.h2p{
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .home_side {
@@ -369,6 +374,7 @@ footer a {
 text-align : center;
 color : #FFFFFF;
 text-decoration : none;
+
 }
 footer {
 display : flex;
@@ -378,6 +384,7 @@ justify-content : space-around;
 align-items : center;
 background : rgb(2, 0, 36);
 background : linear-gradient(90deg, rgb(2, 0, 36, 1) 0%, rgb(27, 28, 45, 1) 13%, rgb(0, 212, 255, 1) 100%);
+font-family: 'koho';
 }
 .h_gp h2, p{
 text-align : left;
