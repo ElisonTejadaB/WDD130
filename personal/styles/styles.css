@@ -264,6 +264,10 @@ grid-template-columns : 150px auto;
 background-color : rgb(20, 30, 13, 0.7);
 align-items : end;
 }
+body{
+    font-family: 'Cherry Swash' , Koho , Georgia, sans-serif;
+
+}
 nav {
 display : flex;
 justify-content : space-around;
@@ -309,6 +313,7 @@ display : grid;
 grid-template-columns : 1fr 1fr 1fr;
 grid-row : 1 / 2;
 align-self: center;
+grid-gap: 20px;
 }
 .h_gp .h2p{
 grid-column : 2 / 4;
@@ -328,6 +333,8 @@ border-radius: 10px;
 #images_h {
 display : grid;
 grid-template-columns : 1fr 1fr 1fr;
+justify-items: center;
+padding-bottom: 20px;
 }
 #img-h1 {
 width : 410px;
