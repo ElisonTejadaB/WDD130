@@ -1,0 +1,25 @@
+div{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+/* Estilo para el contenedor del video
+div {
+    position: absolute;
+    bottom: -435px;
+    left: 0;
+    width: 100%;
+} */
+
+/* Estilo para el video */
+video {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 100%;
+    height: 230px;
+
+}
