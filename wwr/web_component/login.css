@@ -3,9 +3,13 @@ form {
     border: 3px solid #f1f1f1;
     width: 250px;
     height: 180px;
-    align-items: center;
-  }
+    align-content: center;
+}
   
+body{
+    background: rgb(68,108,147);
+background: radial-gradient(circle, rgba(68,108,147,0.773546918767507) 99%, rgba(156,84,65,1) 99%, rgba(0,95,255,1) 100%);
+}
   /* Full-width inputs */
   input[type=text], input[type=password] {
     width: 100%;
@@ -47,7 +51,7 @@ form {
   
   /* Avatar image */
   img.avatar {
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
   }
   
