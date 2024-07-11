@@ -178,6 +178,14 @@ height : 100%;
 grid-column : 3 / 4;
 grid-row : 3 / 4;
 }
+video {
+grid-row: 3/4;
+grid-column: 3/4;
+width: 100%;
+height: 280px;
+
+}
+
 #img-s4 {
 width : 100%;
 height : 370px;
@@ -222,6 +230,7 @@ width : 410px;
 height : 330px;
 grid-column : 3 / 4;
 }
+
 
 /* ********************************************************Responsiveness*************************************************************************** */
 
