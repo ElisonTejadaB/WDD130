@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <div>
+    <div class="visual">
     <h1>Mi Video</h1>
     <video width="1200" height="440" autoplay muted loop>
         <source src="../video/Services.mp4" type="video/mp4">
@@ -18,3 +18,58 @@
 </div>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget de Clima 3D</title>
+    <style>
+        .weather-widget {
+            border: 1px solid #ccc;
+            padding: 5px;
+            width: 350px;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(145deg, #e6e6e6, #ffffff);
+            box-shadow: 5px 5px 15px #aaa, -5px -5px 15px #fff;
+            border-radius: 10px;
+            justify-content: left;
+        }
+        .weather-title {
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #333;
+            text-shadow: 1px 1px 2px #aaa;
+            text-align: center;
+        }
+        .weather-info {
+            font-size: 16px;
+            color: #555;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-widget">
+        <div class="weather-title">Clima Actual</div>
+        <div class="weather-info">
+            <p>We are focused primarily on customer support and satisfaction through our services and products.<br>
+                We offer solutions such as fixing issues with computers, laptops, printers, software development. <br>
+                In addition, we consultancy the purchase of equipment to replace or upgrade a piece of equipment.<br>
+                We can provide quick and effective resolutions of requests and ensure a positive customer experience.<br>
+                Find a solution to the problem of the same, whether physical</p>
+             
+                <!-- <span id="description">--</span></p> -->
+        </div>
+    </div>
+
+    <!-- <script>
+        // Aquí puedes agregar la lógica para obtener los datos del clima
+        // Este es un ejemplo estático, pero puedes usar una API de clima como OpenWeatherMap
+        document.getElementById('temperature').textContent = '25';
+        document.getElementById('description').textContent = 'Soleado';
+    </script> -->
+</body>
+</html> 
