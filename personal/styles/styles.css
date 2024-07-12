@@ -495,8 +495,10 @@ figcaption {
 
 footer p {
     font-size: 1.2em;
-    color: var(--main-font-color);
+    /* color: var(--main-font-color); */
+    color: #FFFFFF;
 }
+
 
 footer p a:hover {
     text-decoration: underline;
@@ -504,8 +506,9 @@ footer p a:hover {
 
 footer a {
     text-align: center;
-    color: var(--main-font-color);
+    /* color: var(--main-font-color); */
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 footer {
@@ -519,7 +522,7 @@ footer {
     font-family: 'KoHo';
 }
 
-.h_gp h2, p {
+.h_gp h2 {
     text-align: left;
     margin-left: 10px;
     font-family: 'Cherry Swash';
