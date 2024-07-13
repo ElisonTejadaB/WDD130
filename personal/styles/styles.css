@@ -70,6 +70,7 @@ border-radius: 10px ;
 .h2p{
     font-size: 16px;
     line-height: 30px;
+    color: #FFFFFF;
 }
 
 
@@ -444,13 +445,13 @@ nav a:hover {
     grid-gap: 20px;
 }
 
-.h_gp .h2p {
+/* .h_gp .h2p {
     grid-column: 2 / 4;
     background-image: linear-gradient(#1B1C2D, #245962, #2D9596);
     margin-top: var(--margin-top);
     height: 95%;
     border-radius: var(--border-radius);
-}
+} */
 
 .h2p {
     font-size: 16px;
