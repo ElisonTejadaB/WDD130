@@ -164,7 +164,7 @@ grid-template-rows : 1fr 0.1fr;
 .hss {
 display : grid;
 grid-template-columns : 1fr 1fr 1fr;
-grid-template-rows : 1fr 1fr 1fr;
+grid-template-rows : 0.2fr 1fr 1fr;
 grid-row : 1 / 2;
 }
 .after_ss {
