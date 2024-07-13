@@ -109,8 +109,8 @@ border-radius: 10px;
 /* ******************************** */
 
 #img-s1, #img-s2 {
-width : 410px;
-height : 230px;
+/* width : 410px;
+height : 230px; */
 margin-top: -75px;
 border-radius: 10px;
 }
