@@ -199,6 +199,11 @@ width : 100%;
 height : 370px;
 }
 
+figure{
+    width: 100%;
+    height: 100%;
+}
+
 .weather-widget_01{
     grid-column : 1 / 3;
     grid-row : 1 / 2;
