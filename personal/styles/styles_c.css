@@ -198,45 +198,6 @@ footer {
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(27, 28, 45, 1) 13%, rgba(0, 212, 255, 1) 100%);
     font-family: 'KoHo';
 }
-
-/* form{
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 400px;
-    border: 1px solid crimson ;
-}
-form ul {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    max-width: 600px;
-}
-
-form li {
-    margin-bottom: 15px;
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input, form textarea {
-    width: 90%;
-    padding: 10px;
-    border: 1px solid #00796b;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #00796b;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-} */
 #img-s4{
     width: 100%;
     border-radius: 40px;
