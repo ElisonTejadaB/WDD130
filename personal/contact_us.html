@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home| Solutions and Services | Contact Us</title>
-    <link type="text/css" rel="stylesheet" href="styles/styles.css"/>
+    <title>Contact Us</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles_c.css"/>
 </head>
 <body>
     
@@ -39,10 +39,61 @@
         <img id="img-c1" src="./images/img_h1.jpeg" alt="We provide Solutions">
         <img id="img-c2" src="./images/img_h2.jpeg" alt="We provide Solutions">
         <img id="img-c3" src="./images/img_h3.png" alt="We provide Solutions">
-      </div>
+      </div> 
                 
-          <!-- Contact Form -->
-      <form action="/contactus" method="post">
+          <!-- <-- Contact Form --> 
+          <h3>Contact Form</h3>
+
+          <div class="container">
+            <form action ="/contact_us" method="post">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email Address</label>
+              <input type="text" id="email" name="email_address" placeholder="Your email address..">
+
+              <label for="Phone">Phone Number</label>
+              <input type="text" id="Phone" name="user_phone" placeholder="Your phone number..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="ecuador">Ecuador</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+              <div id="feedback"></div>
+            </form>
+
+          </div>
+          <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+
+
+
+       <!-- <form action="/contactus" method="post">
                 
             <ul>
               <li>
@@ -69,11 +120,10 @@
               </li>
             </ul>
             <div id="feedback"></div>
-      </form>
-
+      </form>  -->
       <div id = "after-s">
         <img id="img-s4" src="./images/Contact_Us.png" alt="We provide Solutions">
-     </div>
+     </div> 
 
 
     </main>
@@ -95,6 +145,6 @@
                     <img src="./images/instagram.png" alt="instagram icon">
                 </a>
             </div>
-        </footer>
+        </footer> 
 
 </body>
