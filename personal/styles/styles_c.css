@@ -203,4 +203,60 @@ footer {
     border-radius: 40px;
 }
 
+/*  *******************************************************test ******************************* */
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 20px;
+    }
+
+    #home {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+
+    .h_c {
+        width: 100%;
+        height: auto;
+    }
+
+    #images_c {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        padding: 10px;
+    }
+
+    .weather-title {
+        font-size: 18px;
+    }
+
+    .weather-info {
+        font-size: 14px;
+    }
+}
+
+
+
 
