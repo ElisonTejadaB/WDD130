@@ -68,34 +68,58 @@ grid-template-rows : 1fr 0.1fr;
 .hss {
 display : grid;
 grid-template-columns : 1fr 1fr 1fr;
-grid-template-rows : 0.2fr 1fr .4fr;
+grid-template-rows : 0.2fr 1fr .3fr;
 grid-row : 1 / 2;
 }
 .after_ss {
 grid-row : 2 / 3;
-
+justify-content: center;
+margin-top: 80px;
 }
 
 #img-s1, #img-s2 {
+margin-left: -40px;
 margin-top: 35px;
 border-radius: 10px;
+padding: 15px;
+
 }
 #img-s1 {
+   
 grid-column : 1 / 2;
 grid-row : 2 / 3;
-width : 80%;
-height : 60%;
+width : 90%;
+height : 70%;
+padding: 15px;
+border-radius: 40px;
 }
 #img-s2 {
 grid-column : 2 / 3;
 grid-row : 2 / 3;
-width : 80%;
-height : 60%;
+width : 90%;
+height : 70%;
+padding: 15px;
+border-radius: 40px;
 }
 #img-s3 {
 grid-column : 3 / 4;
 grid-row : 3 / 4;
 }
+/* ******************************************* */
+ figcaption{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#1B1C2D ;
+}
+figure{
+    
+    width: 100%;
+    height: 100%;
+} 
+
+/* ********************************************************** */
 .vid h1{
     margin-top: -55px;
    justify-content: center;
@@ -213,21 +237,18 @@ margin-top: 35px;
 }
 .weather-widget_02 {
 border: 1px solid #ccc;
-padding: 5px;
+/* padding: 5px; */
 width: 95%;
-height: 110%;
 font-family: "Koho";
 background: linear-gradient(145deg, #e6e6e6, #ffffff);
 box-shadow: 5px 5px 15px #aaa, -5px -5px 15px #fff;
 border-radius: 10px;
-/* justify-content: left; */
-margin-top: -60px;
-margin-bottom: 10px;
+
 }
 
 .weather-title_02 {
 font-size: 20px;
-margin-top: -5px;
+/* margin-top: -5px; */
 margin-bottom: 5px;
 color: #333;
 text-shadow: 1px 1px 2px #aaa;
