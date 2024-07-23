@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html{
+    background-color: #C0DCEC;
+}
+
+header {
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(20, 30, 13, 0.7);
+    align-items: center;
+}
+body{
+    max-width: 70rem;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: 'Cherry Swash' , 'Koho';
+    width: 70rem;
+    align-items: center;
+    
+}
+nav {
+display : flex;
+justify-content : space-around;
+z-index : 2;
+}
+nav a {
+text-decoration : none;
+color : #fcfbfb;
+text-align : center;
+padding : 40px;
+font-family: 'Koho';
+}
+nav a:hover {
+background-color : rgb(243, 243, 243);
+color : #9e8c74;
+}
+.logo {
+border-radius : 75px;
+width : 90px;
+}
