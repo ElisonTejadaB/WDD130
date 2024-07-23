@@ -69,6 +69,7 @@ grid-template-columns : 1fr 1fr;
 grid-row : 1 / 2;
 align-self: center;
 grid-gap: 20px;
+
 }
 .h_gp .h2p{
 grid-column : 2 / 3;
@@ -76,14 +77,24 @@ background-image: linear-gradient(#1B1C2D, #245962, #2D9596) ;
 margin-top: 20px;
 height: 95% ;
 border-radius: 10px ;
-    
+
+
+}
+.h2p h2{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .h2p{
 font-size: 16px;
 line-height: 30px;
 color: #FFFFFF;
-
 }
+.h2p p{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
 .home_side {
 grid-column : 1 / 2;
 margin-top : 20px;
