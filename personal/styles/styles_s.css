@@ -71,12 +71,13 @@ grid-template-columns : 1fr 1fr 1fr;
 grid-template-rows : 0.2fr 1fr .3fr;
 grid-row : 1 / 2;
 }
-.after_ss {
-grid-row : 2 / 3;
-justify-content: center;
-margin-top: 80px;
-}
 
+#after-s {
+    grid-row : 2 / 3;
+    justify-content: center;
+    margin-top: 80px;
+    }
+    
 #img-s1, #img-s2 {
 margin-left: -40px;
 margin-top: 35px;
